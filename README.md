@@ -4,10 +4,9 @@ Welcome! This repo will quickly get you started with writing tests and solving s
 
 # Setup
 
-Everything works with built in Ruby! Just run:
-
 ```
-ruby code.rb
+bundle install
+bundle exec ruby code.rb
 ```
 
 # Conways Game of Life Rules:

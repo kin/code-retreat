@@ -1,5 +1,4 @@
-require "minitest/spec"
-require "minitest/autorun"
+require 'rspec/autorun'
 
 # Code goes here!
 
@@ -13,6 +12,6 @@ end
 
 describe "Hello" do
   it "does some assertsions" do
-    assert_equal Failer.new.one, 1
+    expect(Failer.new.one).to eq 1
   end
 end
